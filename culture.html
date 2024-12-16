@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                background-image: url("luce1.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                position: relative;
+            }
+
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 0, 0, 0.5);
+                z-index: 0;
+                pointer-events: none;
+            }
+
+            #navbar {
+                position: sticky;
+                top: 0;
+                overflow: hidden;
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: white 3px solid;
+                z-index: 10;
+            }
+
+            #navbar a {
+                float: none;
+                margin: 0 10px;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 10px 12px;
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: bold;    
+            }
+
+            .sulogo {
+                 margin-right: auto;
+            }
+
+            .ccslogo {
+                margin-left: auto;
+            }
+
+            #navbar a:hover {
+                background-color: white;
+                color: red;
+            }
+
+            #navbar a.active {
+                background-color: white;
+                color: red;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+            }
+
+            .box {
+                padding: 20px;
+                z-index: 1;
+                position: relative;
+                text-align: center;
+                border: 3px solid white;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+                text-shadow: 
+                -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+                margin: 0 auto;
+                max-width: 80%;
+                z-index: 1;
+                text-shadow: 
+                -1px -1px 0 black, 
+                1px -1px 0 black, 
+                -1px  1px 0 black, 
+                1px  1px 0 black;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="silliman.png" class="sulogo" width="64" height="64">
+            <a href="index.html">The 5 Cs</a>
+            <a href="classroom.html">Classroom</a>
+            <a href="culture.html" class="active">Culture</a>
+            <a href="church.html">Church</a>
+            <a href="community.html">Community</a>
+            <a href="court.html">Court</a>
+            <img src="ccs.png" class="ccslogo" width="64" height="64">
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #1: Keyboard Blitz</h1><br>
+            <img src="Keyboard Blitz.jpg" style="float: right;margin-left: 15px;" width="652" height="489">
+            <p style="text-align: center;">On August 20, 2024, one of the CCS Founders Week events named “Keyboard Blitz” happened at CC10. This event is organized by the College of Computer Studies and it’s hosted by Confederates Student Council. For this event, I am part of Attendance Committee.<br><br>
+
+            This event is all about who can type the fastest with the least number of errors on monkeytype.com. There were a considerable amount of people participating in this event, to the point where most of the computers were occupied. During the event, it amazes me how people can type so fast with little to no errors.<br><br>
+                
+            After the event, I have realized how fast a person can type. As an aspiring game or software developer, I may want to learn how to type fast so that I can be efficient in typing my programming and coding. I hope that these participants can improve their skills so that they can become efficient in programming and coding too.<br><br>
+                
+            Because of this activity, I want to learn how to type faster now.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #2: Parada Sillimaniana</h1><br>
+            <img src="Parada Sillimaniana 2.jpg" style="float: left;margin-right: 15px;" width="652" height="489">
+            <p style="text-align: center;">On August 26, 2024, the Parada Sillimaniana happened. This parade is meant to celebrate 123rd Silliman University Founders Day. For this event, I am part of the Attendance Committee to make sure every CCS student can witness this spectacular event.<br><br>
+
+            During the event, I was watching the parades from the other colleges, they were not bad, but nothing compares to the performance done by CCS. Once the CCS parade was nearing the front of the grandstand, I cheered on with excitement. I was truly amazed by the performance by our college, with their perfect dance and cheer.<br><br>
+                
+            After this activity, I was filled with happiness after seeing CCS’s performance. I truly think they had the best performance compared to other colleges. I hope CCS continues to perform their best in the future Parada Sillimanianas.<br><br>
+                
+            Because of this activity, I am thankful to be a part of the College of Computer Studies.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #3: Movie Night Day 3</h1><br>
+            <img src="Movie Night Day 3.jpg" style="float: right;margin-left: 15px;" width="652" height="489">
+            <p style="text-align: center;">On August 22, 2024, Day 3 of Movie Night happened at ATA hall. This event if part of CCS Founders Week and is organized by both CCS and Confederates Student Council. For this activity, I’m just a normal participant since I’m interested in watching movies.<br><br>
+
+            The movie that was being premiered on Day 3 is Deadpool & Wolverine. The reason why I was interested in watching this movie is because I am a fan of superheroes. My favorite part of the movie was the whole thing, I loved the epic actions scenes, the well timed comedic moments, and most importantly, the character development between Deadpool & Wolverine to improve their relationship and become best friends in the end.<br><br>
+                
+            After the movie, I felt joyous because of how perfect the movie was. I hope that the people who watched the movie with me also enjoyed the movie. I also learned that having friends and companions is important as they can help you in anything that you need or want, just like how I made friends during my 1st semester and they helped me in my assignments and projects.<br><br>
+
+            Because of this activity, I now know how important it is to have friends.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #4: CCS Acquaintance Party</h1><br>
+            <img src="CCS Acquaintance Party 1.jpg" style="float: left;margin-right: 15px;" width="652" height="489">
+            <p style="text-align: center;">The day is September 28, 2024, the day where the official CCS Acquaintance Party is officially happening at Silliman University Elementary School. This event took awhile to organize by CCS and Confederates Student Council, but it’s finally here! For this event I am just a normal participant.<br><br>
+
+            My initial expectations for this event was filled with excitement, I could not wait to engage upon the delicious food made by the SU cafeteria, watch the spectacular performances from fellow CCS students, and most importantly, have fun with my friends. During the event, I was amazed by the spectacular performances done by the very talented CCS students, I also had fun watching people participate in the games that were being played during the acquaintance party. This entire event was truly one of my favorite events because of how much fun I had with my friends.<br><br>
+                
+            After the activity, my emotions were filled with bliss because of how much fun I had in the acquaintance party. I hope that I get experience more fun-filled events like this during my time at CCS. And, I hope that my fellow CCS students also had fun during and after the acquaintance party.<br><br>
+                
+            Because of this activity, I am thankful to be a CCS student because of how fun the events can get.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #5: CCS Christmas Party</h1><br>
+            <img src="Christmas Party.jpg" style="float: right;margin-left: 15px;" width="652" height="489">
+            <p style="text-align: center;">On December 14, 2024, the CCS Christmas Party happened at Silliman Hall. This part is organized by CCS and Confederates Student Council. For this activity, I am part of the Attendance Committee to make sure that every CCS student can attend this wonderful event.<br><br>
+
+            During the event, we discussed about some topics, witnessed the amazing talents of CCS student during intermission numbers, played a few games, and then finally ate dinner. It was very fun to watch the games, seeing people put in maximum effort to win a silly game was pretty humorous. In my honest opinion, my favorite part was the entire event because of funny things the hosts said, the fun games, and the very delicious food.<br><br>
+            
+            After the event, I talked to my friends about how fun the event was and then we went our separate ways. I’m hoping that CCS and Confed will host more enjoyable events like this one. I’m also hoping that I get to socialize with my friends and other people through events like this one.<br><br>
+                
+            Because of this activity, I am hoping that my journey in CCS will be as blissful as this night.</p>
+        </div>
+    </body>
+</html>

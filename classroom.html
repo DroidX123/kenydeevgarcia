@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                background-image: url("hall.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                position: relative;
+            }
+
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 0, 0, 0.5);
+                z-index: 0;
+                pointer-events: none;
+            }
+
+            #navbar {
+                position: sticky;
+                top: 0;
+                overflow: hidden;
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: white 3px solid;
+                z-index: 10;
+            }
+
+            #navbar a {
+                float: none;
+                margin: 0 10px;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 10px 12px;
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: bold;    
+            }
+
+            .sulogo {
+                 margin-right: auto;
+            }
+
+            .ccslogo {
+                margin-left: auto;
+            }
+
+            #navbar a:hover {
+                background-color: white;
+                color: red;
+            }
+
+            #navbar a.active {
+                background-color: white;
+                color: red;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+            }
+
+            .box {
+                padding: 20px;
+                z-index: 1;
+                position: relative;
+                text-align: center;
+                border: 3px solid white;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+                text-shadow: 
+                -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black;
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+                margin: 0 auto;
+                max-width: 80%;
+                z-index: 1;
+                text-shadow: 
+                -1px -1px 0 black, 
+                1px -1px 0 black, 
+                -1px  1px 0 black, 
+                1px  1px 0 black;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="silliman.png" class="sulogo" width="64" height="64">
+            <a href="index.html">The 5 Cs</a>
+            <a href="classroom.html" class="active">Classroom</a>
+            <a href="culture.html">Culture</a>
+            <a href="church.html">Church</a>
+            <a href="community.html">Community</a>
+            <a href="court.html">Court</a>
+            <img src="ccs.png" class="ccslogo" width="64" height="64">
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #1: All Things Infomedia</h1><br>
+            <img src="Infomedia.jpg" style="float: right;margin-left: 15px;" width="652" height="300">
+            <p style="text-align: center;">On December 4, 2024, I attended the All Things Infomedia workshop, hosted by the SUSG Informedia Committee. This workshop discusses topics on stuff related to media such as videography, photography, video editing, and graphics design. I’m just a normal participant in this activity as I want to learn more about video making and editing, and photo taking and photo editing.<br><br>
+
+            During my time in this workshop I have learned more about video editing and graphics designing such as using the right elements and listening to criticism to improve yourself, and I have learned more about videography and photography, such as using the right lighting, angles, and environments. When I was listening to the speakers I was fascinated with the progress they made to improve their talent, especially the speaker for graphics design as I could see how much she improved her skills over the years. I was also amazed by the projects made by the other speakers showcased during their lecture, as I can see the effort it must’ve took to make this project and to see the elements being applied in their projects.<br><br>
+                
+            During and after my experience in the workshop, I have learned finally learned what I wanted to learn in this workshop. I have also learned the amount of effort to do video making and editing, and photo taking and designing. I hope these speakers keep doing what they’re currently doing and I hope they continue to improve themselves and use their skill to make the best projects in the future.<br><br>
+                
+            Because of this activity, I am ready to embark on my journey on video making and editing, and photo taking and designing, and this knowledge can help me become a game or software developer in the future. </p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #2: University-Wide Orientation</h1><br>
+            <img src="Freshie Orientation.jpg" style="float: left;margin-right: 15px;" width="652" height="489">
+            <p style="text-align: center;">On September 11, 2024, the University-Wide Orientation took place at Luce Auditorium. This orientation is designed for freshies like me and new students to know everything about Silliman. This orientation talks about its services offered, the Silliman University Campus, and the policies and guidelines you must abide by when you are inside the campus. I’m just a normal participant in this activity as it is required by my college. <br><br>
+
+            When I was on my way to this lecture, I didn’t actually know what to expect, I have been a Sillimanian since I was in Early Childhood, but there could still be some new things I can learn about Silliman in this orientation. During my time in this orientation I learned several things such as the offices inside Silliman such as the offices within Silliman, medical, library, and church services offered within Silliman, and the things Silliman does to make this place a safe space. What I was more interested in was the use of online tools to optimize the campus experience. As an aspiring game or web developer, I was fascinated by the tools used by Silliman to help Sillimanians such as mySOUL to see your classrooms, lessons, and assignments, and mySilliman to view your courses you enrolled in and your grades of those courses.<br><br>
+                
+            After this orientation, I have learned more about Silliman such as the services, tools, guidelines and policies to make Silliman a better place for everyone and everything. I am thankful to be a Sillimanian as the things I can learn, gain, and use can help my life and my future. I hope that I share these feelings with my fellow Sillimanians and the new students as they will surely have a great time here at Silliman.<br><br>
+                
+            Because of this activity, I am proud to be a Sillimanian.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #3: CCS Freshmen Orientation</h1><br>
+            <img src="CCS Freshie Orientation.jpg" style="float: right;margin-left: 15px;" width="652" height="489">
+            <p style="text-align: center;">On September 18, 2024, the CCS Freshmen Orientation took place at ATA hall. This orientation is organized and hosted by the College of Computer Studies and its faculty. Unlike the university-wide orientation, this orientation is strictly for CCS freshies, shiftees, and transferees. For this activity, I’m just a normal participant since I’m a freshman here.<br><br>
+
+            During my time in this orientation I learned everything I need to know about this college. I learned about the faculty of CCS in each department. And, I learned about the guidelines and policies you need to abide when your in CCS. The part that I liked the most about the orientation was the one where the facilities were being showcased, such as the Information Resource Center (IRC), and the Apps Incubation and Development Laboratory, I like these facilities as they can help me learn more about game or software development.<br><br>
+                
+            After this orientation, I have successfully learned about what I need to know about CCS. From the guidelines and policies I need to abide by, the facilities that can me in studying and learning, and to the faculty that can help me achieve me develop myself, I hope my time here at CCS can help me achieve my dreams of becoming a game or software developer. I also hope I can graduate with my fellow freshies in the next 4 years so that we can develop the best projects that can help everyone and everything in this world.<br><br>
+                
+            Because of this activity, I am ready to embark on this journey on becoming a successful game or software developer.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #4: Volunteering Network Program Orientation</h1><br>
+            <img src="VNP Orientation.jpg" style="float: left;margin-right: 15px;" width="652" height="300">
+            <p style="text-align: center;">On November 13, 2024, the orientation and launching of the Volunteering Network Program happened at Orientall Hall. This orientation is hosted by SUSG Social Services Committee. This orientation is designed to orient us on what volunteering is about. For this activity, I’m just a normal participant.<br><br>
+
+            During the orientation, I have learned on the Volunteering Network Program is. The VNP is a program designed for people who want to volunteer to help the general public and community. This Orientation also talks about what volunteering is in general. According to the speakers, volunteering is all about participating in activities not because you need to or are required to, it’s because you want to and you have the heart for it. This orientation was one my favorite orientations because of the speakers’ presentations and messages, seeing them volunteer to help the people in need such as orphans and victims of a calamity warms my heart.<br><br>
+                
+            After this orientation, it saddens me how many people are not getting the help they need. I have realized how important and impactful this program is for those people. And, I hope that with this program, me and my fellow volunteers can give people the help that they need and deserve.<br><br>
+                
+            Because of this activity, I am ready to become a volunteer and help everyone as much as I can.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #5: Balik Talent Lecture: “Big Data and IoT: Why They Matter in Innovation”</h1><br>
+            <img src="Balik Talent Lecture_ Big Data and IoT_ Why They Matter in Innovation.jpg" style="float: right;margin-left: 15px;" width="652" height="489">
+            <p style="text-align: center;">On August 20, 2024, a Balik Talent Lecture was hosted at ATA hall. The speaker for this lecture was Mr. Abraham Johannes T. Tourbier, a senior data manager. For this lecture, I’m just a normal participant as this lecture is required.<br><br>
+
+            My initial expectations for this lecture was uncertainty as I have no idea what Big Data and IoT is, but I was intrigued to know what it is exactly as this knowledge could potentially help me to become a game or software developer. During the lecture, the speaker talked about what Big Data exactly is. According to the speaker Big Data is basically a massive volume of structured, unstructured, and semi-structured data generated at high speed from various sources like social media, sensors, transactions, and devices. The speaker also explains what IoT is. IoT refers to a network of interconnected devices, sensors, and systems that communicate and share data over the internet. The part that surprised me the most was when Big Data and IoT was used to control several devices such lights, sensors, and security cameras as showcased in the speaker’s presentation.<br><br>
+                
+            After the orientation, I can understand why Big Data and IoT matters in innovation. These technologies can help everyone manage everything much better. I hope these technologies can develop even further and receive more investment so that it can be beneficial for everyone.<br><br>
+                
+            Because of this activity, I am knowledgeable about Big Data and IoT and I hope this knowledge can help me when I become a game or software developer.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #6: Miller Solutions Development Inc. Industry Lecture: “Web Development: Latest Trends and Strategies”</h1><br>
+            <img src="Miller Solutions Inc. Industry Lecture_ Web Development_ Latest Trends and Strategies.jpg" style="float: left;margin-right: 15px;" width="652" height="489">
+            <p style="text-align: center;">On August 19, 2024, a lecture hosted by CCS happened at ATA hall. This lecture invites software developers from Miller Solutions Development Inc., a software development company. For this lecture, I’m just a normal participant since this lecture is required.<br><br>
+
+            My initial expectations for this lecture was filled with excitement, this is because I want to become a game or software developer one day and knowing that Miller Solutions Development Inc. is a software developer company I knew that participating in this lecture can help me fulfill my dream. During the presentation I liked the fact that the speaker used memes in their presentation to make his lecture more relatable and understandable for his younger audience. The part that intrigued me the most was Artificial Intelligence. I agree that AI can be a useful tool for web development and other things, but I believe that we shouldn’t rely too much on AI to do the work for us.<br><br>
+                
+            After the lecture, I have learned more about Web Development and the latest trends and strategies about it. This knowledge will surely help me become a game or software developer as web development can help me advertise my game and future software. I also hope my fellow freshies can use this knowledge to help achieve whatever dream they have.<br><br>
+                
+            Because of this activity, I am more knowledgeable about web development and I hope I can learn more about development in general in the future.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #7: Session 1: 3D Scanning</h1><br>
+            <img src="Sinergy.jpg" style="float: right;margin-left: 15px;" width="652" height="300">
+            <p style="text-align: center;">On November 20, 2024, the 1st session for the 3d Designing & Printing Workshop happened at Sinergy FabLab which is a lab owned by Sinergy TBI. The 1st session is all about 3D scanning. For this workshop, I’m just a normal participant.<br><br>
+
+            I was not sure what to expect when walking into this workshop, since 3D scanning isn’t usually associated with game or software development. I still wanted to see what 3D scanning, modeling, and printing looked like in person since I saw a lot of my favorite tech youtubers use 3D printing machines. During my time at this workshop, I learned what 3D scanning is and what the real-world applications are for certain fields and projects. The part that awed me the most was when they used when they used a 3D scanning machine, it was so cool that the object they scanned had digital model made for it and you can see it in their software.<br><br>
+                
+            After this workshop, I have learned what 3D scanning is all about. While 3D scanning may not help me in becoming a game or software developer, this workshop was still pretty interesting. I still hope that one day this knowledge will become useful for me.<br><br>
+                
+            Because of this activity, I am more knowledgeable about 3D scanning, designing, and printing.</p>
+        </div>
+        <div class="box clearfix">
+            <h1>Journal Entry #8: Silliman Unversity Campus Tour</h1><br>
+            <img src="Silliman Tour.jpg" style="float: left;margin-right: 15px;" width="652" height="489">
+            <p style="text-align: center;">On September 18, 2024, we had a Silliman University campus tour. This event is organized by Silliman University Corps of Campus Ambassadors. For this event, I am just a normal spectator.<br><br>
+
+            During the event, we walked around the Silliman University campus while our tour guide was talking about the history and trivia of each building and location we went to. It was very interesting to hear the history and little fun facts of Silliman, such as the entire campus having over 300 trees, proving that Silliman truly cares about the environment. The most interesting thing about the tour was the Silliman hall, it was very fascinating seeing and hearing about the history of the 1st and oldest building of Silliman University.<br><br>
+                
+            After the activity, I know more about Silliman’s history and buildings. From an elementary school for boys to a full-fledged university, the success of Silliman is truly a remarkable feat. I hope that Silliman University continues to find more success and expand it’s campus even further.<br><br>
+                
+            Because of this activity, I am more knowledgeable about Silliman’s how Silliman came to be and how it became what it is today.</p>
+        </div>
+    </body>
+</html>
